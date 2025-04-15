@@ -29,6 +29,11 @@ Replace the **https://example.com** with the URL that you want.
 cp ./files/start-chromium.sh ~/start-chromium.sh
 ```
 
+#### 2.3 Make the script executable
+```bash
+chmod +x ~/start-chromium.sh
+```
+
 ### 3. Add the service
 ```bash
 sudo cp ./files/codezoo-chromium-autostart.service /etc/systemd/system/codezoo-chromium-autostart.service

@@ -3,7 +3,7 @@ Description=Start Chrome in Full Screen on Boot
 After=graphical.target
 
 [Service]
-ExecStart=/home/codezoo/start-chrome.sh
+ExecStart=/home/codezoo/start-chromium.sh
 User=codezoo
 Environment=DISPLAY=:0
 Environment=XDG_RUNTIME_DIR=/run/user/1000
