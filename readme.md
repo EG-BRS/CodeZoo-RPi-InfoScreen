@@ -4,12 +4,12 @@
 
 ## Requirements
 1. Raspberry Pi OS (w. Desktop environment)
-2. Username is codezoo (ID: 1000) - if not `files/codezoo-chromium-autostart.service` needs to be updated accordingly
+2. Username is codezoo (ID: 1000) - if not, `files/codezoo-chromium-autostart.service` needs to be updated accordingly
 3. Available internet
 
 ## Steps
 
-First change you directory to the root of this project!
+First, change your directory to the root of this project!
 
 ### 1. Update and install Chromium
 ```bash
